@@ -1,0 +1,72 @@
+.root-modal{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: #00000033;
+    width: 100%;
+    height: 100%;
+
+}
+.modal-show{
+    display: flex;
+}
+.modal-layout{
+    background-color: white;
+    width: 300px;
+    border: 1px solid #dbdbdb;
+}
+.modal-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-bottom: 1px solid #dbdbdb;
+
+}
+.modal-title{
+    font-size: 14px;
+    font-weight: 600;
+}
+.modal-main{
+    border: 1px solid #dbdbdb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    padding: 10px;
+
+}
+.todo-input{
+    text-align: center;
+    border: 1px solid #dbdbdb;
+    width: 100%;
+    height: 100%;
+    resize: none;
+    outline: none;
+    padding: 10px;
+    &:focus{
+        background-color: #fafafa;
+    }
+}
+.modal-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+.modal-button{
+    width: 50%;
+    height: 100%;
+    border-radius: 0px;
+    border: none;
+    background-color: aqua;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 5px;
+}
+.modal-button:nth-of-type(1){
+    border-right: 1px solid #dbdbdb;
+}

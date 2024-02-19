@@ -1,0 +1,87 @@
+.root1-container{
+    
+}
+.root1-header{
+    background-color: #dbdbdb;
+    height: 104px;
+    width: 100%;
+    border-bottom: 1px solid black;
+    margin: 0px;
+}
+.root1-menu-bt{
+    height: 32px;
+    width: 32px;
+    border-radius: 7px;
+    cursor: pointer;
+    border: 1px solid black;
+    margin: 15px;
+}
+.side-bar-layout{
+    
+    width: 100%;
+    height: 100%;
+    background-color: #33333311;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+.side-bar-container{
+    width: 320px;
+    height: 100%;
+    background-color: white;
+    box-shadow: 1px 0px 10px black;
+}
+.side-bar-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 8px 8px 0px;
+    height: 56px;
+}
+.side-bar-logo{
+    width: 48px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    padding: 8px 0px 6px 8px;
+
+    
+}
+.side-bar-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background-color 0.5s ease-in-out;
+    &:hover{
+        background-color: #f3f4f6;
+    }
+}
+.side-bar-main{
+    padding: 0px 8px 16px;
+    height: 100%;
+}
+.menu-list-container{
+    padding: 8px;
+    border-bottom: 1px solid #dbdbdb;
+}
+.menu-list-container > li{
+    display: flex;
+    height: 32px;
+    color: #1f2328;
+    padding: 6px 8px;
+    font-size: 14px;
+    cursor: pointer;
+    
+    &:hover{
+        background-color: #f3f4f6;
+    }
+}
+.menu-icons{
+    margin-right: 8px;
+}
+

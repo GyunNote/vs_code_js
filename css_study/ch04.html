@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+<style>
+    .main-box{
+        box-sizing: border-box;
+        position: relative;
+        margin: 300px auto;
+        width: 485px;
+        height: 310px;
+        border: 1px solid #222;
+        border-radius: 4px;
+        background-color: white;
+    }
+    .box{
+        position: absolute;
+        width: 246px;
+        height: 200px;
+        border:1px solid green;
+       border-radius: 15px;
+        right:-20px;
+        top:-12px;
+        background-color: white;
+        z-index: 1;
+
+    }
+    .x-box{
+        transform: translate(-50%,-50%);
+        position: absolute;
+        top: 50%;
+        z-index: 2;
+        left: 50%;
+    }
+</style>
+<div class="main-box">
+    <div class="box">
+        <label class="x-box">x</label>
+    </div>
+
+
+
+    
+</div>
+
+
+
+
+
+
+    
+</body>
+</html>
